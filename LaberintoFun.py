@@ -25,7 +25,7 @@ def mover_jugador(movimiento, fila_jugador, columna_jugador):
     """Actualiza la posición del jugador según el movimiento."""
     if movimiento == 's' and fila_jugador > 0:
         fila_jugador -= 1
-    elif movimiento == 'x' and fila_jugador < FILAS - 1:
+    elif movimiento == 'k' and fila_jugador < FILAS - 1:
         fila_jugador += 1
     elif movimiento == 'z' and columna_jugador > 0:
         columna_jugador -= 1
